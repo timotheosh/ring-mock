@@ -13,8 +13,10 @@
    :source-uri  "https://github.com/ring-clojure/ring-mock/blob/{version}/{filepath}#L{line}"}
   :aliases {"test-all" ["with-profile" "default:+1.8:+1.9:+1.10" "test"]}
   :profiles
-  {:1.8  {:dependencies [[org.clojure/clojure "1.12.0"]]}
-   :1.9  {:dependencies [[org.clojure/clojure "1.12.0"]
+  {:1.8  {:dependencies [[org.clojure/clojure "1.8.0"]]}
+   :1.9  {:dependencies [[org.clojure/clojure "1.9.0"]
                          [ring/ring-spec "0.0.4"]]}
-   :1.10 {:dependencies [[org.clojure/clojure "1.12.0"]
+   :1.10 {:dependencies [[org.clojure/clojure "1.10.0"]
+                         [ring/ring-spec "0.0.4"]]}
+   :1.12 {:dependencies [[org.clojure/clojure "1.12.0"]
                          [ring/ring-spec "0.0.4"]]}})
